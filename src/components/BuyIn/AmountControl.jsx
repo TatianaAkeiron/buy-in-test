@@ -33,7 +33,8 @@ function AmountControl({ amount, setAmount }) {
           Min $0.5
         </button>
 
-        <label className="buyin__field">
+        <label className="buyin__field buyin__field--amount">
+          {" "}
           <span>Amount</span>
           <input
             type="number"

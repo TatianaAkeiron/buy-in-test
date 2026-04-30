@@ -234,6 +234,21 @@
   }
 }
 
+.buyin__field--amount::before {
+  content: "$";
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.buyin__field--amount input {
+  padding-left: 22px;
+}
+
 .buyin__slider {
   width: 100%;
   margin: 20px 0 25px;
