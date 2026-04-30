@@ -15,11 +15,11 @@ function TablesControl({ tables, setTables }) {
       <button
         className="buyin__gray-button"
         type="button"
+        disabled={tables === 1}
         onClick={() => setTables((prev) => Math.max(1, prev - 1))}
       >
         −
       </button>
-
       <label className="buyin__field buyin__field--tables">
         <span>Number of tables</span>
         <input

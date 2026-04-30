@@ -329,3 +329,16 @@
 .buyin__icon--charge {
   background-position: 0 -38px;
 }
+
+.buyin__gray-button:disabled {
+  cursor: default;
+  opacity: 0.45;
+  background: linear-gradient(#343942, #22262d);
+  transform: none;
+}
+
+.buyin__gray-button:disabled:hover,
+.buyin__gray-button:disabled:active {
+  background: linear-gradient(#343942, #22262d);
+  transform: none;
+}
