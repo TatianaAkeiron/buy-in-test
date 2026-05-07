@@ -18,7 +18,7 @@
   padding: 36px 34px 18px;
   background:
     radial-gradient(
-      ellipse 400px 80px at 50% -0.5%,
+      ellipse 400px 80px at 50% 0%,
       rgba(36, 190, 89, 0.95) 0%,
       rgba(25, 150, 70, 0.55) 23%,
       rgba(20, 95, 55, 0.28) 55%,
@@ -104,15 +104,9 @@
 }
 
 .buyin__label {
+  display: flex;
+  align-items: center;
   color: #c8c8c8;
-  position: relative;
-  left: 18px;
-}
-
-.buyin__icon {
-  margin-right: 8px;
-  position: relative;
-  top: 3px;
 }
 
 .buyin__value {
@@ -143,7 +137,7 @@
 }
 
 .buyin__cash {
-  color: #ffd23f !important;
+  color: #ffd23f;
 }
 
 .buyin__charge {
