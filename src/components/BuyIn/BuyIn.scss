@@ -152,6 +152,11 @@
   align-items: center;
 }
 
+.buyin__field.buyin__field--error {
+  border: 1px solid #ff4d4f;
+  box-shadow: 0 0 6px rgba(255, 77, 79, 0.5);
+}
+
 .buyin__green-button,
 .buyin__gray-button,
 .buyin__wide-button {
